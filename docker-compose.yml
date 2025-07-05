@@ -1,0 +1,26 @@
+version: '3.8'
+
+services:
+  postgres:
+    image: postgres:14
+    container_name: rekcheck-postgres
+    restart: always
+    environment:
+      POSTGRES_DB: rekcheckdb
+      POSTGRES_USER: postgres
+      POSTGRES_PASSWORD: Maulida03.
+    ports:
+      - "5433:5432"
+    volumes:
+      - rekcheck_pgdata:/var/lib/postgresql/data
+
+  prometheus:
+    image: prom/prometheus
+    container_name: prometheus
+    ports:
+      - "9090:9090"
+    volumes:
+      - ./prometheus.yml:/etc/prometheus/prometheus.yml
+
+volumes:
+  rekcheck_pgdata:

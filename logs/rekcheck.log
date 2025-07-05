@@ -1,0 +1,41 @@
+2025-07-05T23:49:11.457+07:00  INFO 27888 --- [rekcheck] [main] com.bni.rekcheck.RekcheckApplication     : Starting RekcheckApplication using Java 21.0.7 with PID 27888 (C:\Users\Andhika Suryamiharja\Downloads\rekcheck\rekcheck\target\classes started by Andhika Suryamiharja in C:\Users\Andhika Suryamiharja\Downloads\rekcheck\rekcheck)
+2025-07-05T23:49:11.459+07:00 DEBUG 27888 --- [rekcheck] [main] com.bni.rekcheck.RekcheckApplication     : Running with Spring Boot v3.5.3, Spring v6.2.8
+2025-07-05T23:49:11.460+07:00  INFO 27888 --- [rekcheck] [main] com.bni.rekcheck.RekcheckApplication     : No active profile set, falling back to 1 default profile: "default"
+2025-07-05T23:49:14.311+07:00  INFO 27888 --- [rekcheck] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-07-05T23:49:14.387+07:00  INFO 27888 --- [rekcheck] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 63 ms. Found 1 JPA repository interface.
+2025-07-05T23:49:14.957+07:00  INFO 27888 --- [rekcheck] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-07-05T23:49:14.978+07:00  INFO 27888 --- [rekcheck] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-07-05T23:49:14.978+07:00  INFO 27888 --- [rekcheck] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.42]
+2025-07-05T23:49:15.051+07:00  INFO 27888 --- [rekcheck] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-07-05T23:49:15.051+07:00  INFO 27888 --- [rekcheck] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3375 ms
+2025-07-05T23:49:15.363+07:00  INFO 27888 --- [rekcheck] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-07-05T23:49:15.456+07:00  INFO 27888 --- [rekcheck] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.18.Final
+2025-07-05T23:49:15.494+07:00  INFO 27888 --- [rekcheck] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-07-05T23:49:15.803+07:00  INFO 27888 --- [rekcheck] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-07-05T23:49:15.839+07:00  INFO 27888 --- [rekcheck] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-07-05T23:49:16.118+07:00  INFO 27888 --- [rekcheck] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@1eb9d69a
+2025-07-05T23:49:16.121+07:00  INFO 27888 --- [rekcheck] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-07-05T23:49:16.203+07:00  WARN 27888 --- [rekcheck] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-07-05T23:49:16.236+07:00  INFO 27888 --- [rekcheck] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 14.18
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-07-05T23:49:17.173+07:00  INFO 27888 --- [rekcheck] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-07-05T23:49:17.321+07:00  INFO 27888 --- [rekcheck] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-07-05T23:49:17.583+07:00  WARN 27888 --- [rekcheck] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-07-05T23:49:17.612+07:00  INFO 27888 --- [rekcheck] [main] o.s.b.a.w.s.WelcomePageHandlerMapping    : Adding welcome page: class path resource [static/index.html]
+2025-07-05T23:49:18.127+07:00  INFO 27888 --- [rekcheck] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-07-05T23:49:18.221+07:00  INFO 27888 --- [rekcheck] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-07-05T23:49:18.236+07:00  INFO 27888 --- [rekcheck] [main] com.bni.rekcheck.RekcheckApplication     : Started RekcheckApplication in 8.133 seconds (process running for 8.613)
+2025-07-05T23:49:19.872+07:00  INFO 27888 --- [rekcheck] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-07-05T23:49:19.874+07:00  INFO 27888 --- [rekcheck] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-07-05T23:49:19.876+07:00  INFO 27888 --- [rekcheck] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2025-07-05T23:50:26.645+07:00  INFO 27888 --- [rekcheck] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-07-05T23:50:26.686+07:00  INFO 27888 --- [rekcheck] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-07-05T23:50:26.697+07:00  INFO 27888 --- [rekcheck] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-07-05T23:50:26.702+07:00  INFO 27888 --- [rekcheck] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-07-05T23:50:26.710+07:00  INFO 27888 --- [rekcheck] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
